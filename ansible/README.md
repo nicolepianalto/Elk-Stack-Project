@@ -35,9 +35,9 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Web 1    | Sever    | 10.0.0.5   | Linux            |
+| Web 2    | Server   | 10.0.0.6   | Linux            |
+| Web 3    | Sever    | 10.0.0.7   | Linux            |
 
 ### Access Policies
 
@@ -51,11 +51,9 @@ Machines within the network can only be accessed by _____.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name     | Publicly Accessible | Allowed IP Addresses          |
+|----------|---------------------|-------------------------------|
+| Jump Box | No                  | 10.0.0.5 10.0.0.6 10.0.0.7    |
 
 ### Elk Configuration
 
