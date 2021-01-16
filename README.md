@@ -1,4 +1,4 @@
-# Elk-Stack-Project#
+# Elk-Stack-Project
 The files in this repository were used to configure the network depicted below.
 
 ![network diagram](https://github.com/nicolepianalto/Elk-Stack-Project/blob/main/diagrams/network%20diagram.png)
